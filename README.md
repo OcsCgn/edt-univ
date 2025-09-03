@@ -6,8 +6,8 @@ Application Android pour consulter l’emploi du temps universitaire, avec un sc
 
 ## 📂 Structure du projet
 Univ-Calendar/
-├── AndroidApp/ # Projet Android Studio
-└── PythonScript/ # Script Python pour convertir .ics en JSON
+├── UnivCalendar/ # Projet Android Studio
+└── Python/ # Script Python pour convertir .ics en JSON
 
 
 ---
