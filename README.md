@@ -40,9 +40,9 @@ pip install -r requirements.txt
 python script.py
 ```
 3. Vérifier que le JSON est accessible :
-
-(http://<IP_PC>:5000/edt)
-
+```bash
+[http://<IP_PC>:5000/edt](http://<IP_PC>:5000/edt)
+```
 ### Android
 
 1. Ouvrir le projet UnivCalendar/ avec Android Studio.
