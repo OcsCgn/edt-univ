@@ -54,4 +54,5 @@ python script.py
 ```
 Si vous utilisez votre téléphone remplacer par l'ip de votre pc 
 Sinon 10.0.2.2
+
 3. Lancer sur un émulateur ou branchez votre appareil pour transférer l'application
