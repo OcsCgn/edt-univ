@@ -47,12 +47,16 @@ python script.py
 
 1. Ouvrir le projet UnivCalendar/ avec Android Studio.
 
-2. Vérifier l’URL de l’API dans la classe  Main Activity(variable baseUrl).
-```bash
-    Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://ip-de-votre-pc:5000/") 
-```
-Si vous utilisez votre téléphone remplacer par l'ip de votre pc 
-Sinon 10.0.2.2
+2. **Vérifier l’URL de l’API** dans la classe `MainActivity` (variable `baseUrl`) :
 
-3. Lancer sur un émulateur ou branchez votre appareil pour transférer l'application
+```java
+Retrofit retrofit = new Retrofit.Builder()
+        .baseUrl("http://ip-de-votre-pc:5000/") 
+        .addConverterFactory(GsonConverterFactory.create())
+        .build();
+```
+Si vous utilisez un téléphone réel, remplacez "ip-de-votre-pc" par l’adresse IP de votre PC.
+
+Si vous utilisez un émulateur Android, utilisez 10.0.2.2.
+
+Lancer l’application sur un émulateur ou branchez votre appareil pour transférer l’application.
