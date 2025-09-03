@@ -43,10 +43,15 @@ python script.py
 
 (http://<IP_PC>:5000/edt)
 
-Android
+### Android
 
-Ouvrir le projet AndroidApp/ avec Android Studio.
+1. Ouvrir le projet UnivCalendar/ avec Android Studio.
 
-Vérifier l’URL de l’API dans le code (variable baseUrl).
-
-Lancer sur un émulateur ou appareil réel ou branchez votre appareil pour transférer l'application
+2. Vérifier l’URL de l’API dans la classe  Main Activity(variable baseUrl).
+```bash
+    Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://ip-de-votre-pc:5000/") 
+```
+Si vous utilisez votre téléphone remplacer par l'ip de votre pc 
+Sinon 10.0.2.2
+3. Lancer sur un émulateur ou branchez votre appareil pour transférer l'application
