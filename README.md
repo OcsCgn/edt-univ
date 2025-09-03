@@ -59,4 +59,4 @@ Si vous utilisez un téléphone réel, remplacez "ip-de-votre-pc" par l’adress
 
 Si vous utilisez un émulateur Android, utilisez 10.0.2.2.
 
-Lancer l’application sur un émulateur ou branchez votre appareil pour transférer l’application.
+3. Lancer l’application sur un émulateur ou branchez votre appareil pour transférer l’application.
