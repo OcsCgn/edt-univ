@@ -40,7 +40,7 @@ python script.py
 ```
 3. Vérifier que le JSON est accessible :
 
-http://<IP_PC>:5000/edt
+(http://<IP_PC>:5000/edt)
 
 Android
 
